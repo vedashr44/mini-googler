@@ -1,0 +1,22 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+.env
+.venv
+.venv2
+.git
+.gitignore
+**/.pytest_cache
+**/.mypy_cache
+**/.DS_Store
+**/node_modules
+**/dist
+**/build
+**/.streamlit
+**/.vscode
+
+# Keep data to allow index building at runtime; comment next line to include
+# mini_google_search/data/*
+

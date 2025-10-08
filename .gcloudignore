@@ -1,0 +1,24 @@
+# Send only what Cloud Run needs. This keeps uploads tiny.
+
+# Ignore everything by default
+/*
+
+# Allow only the Dockerfile and the app code
+!/Dockerfile
+!/mini_google_search/**
+
+# But exclude local data and caches from the app folder
+mini_google_search/data/**
+mini_google_search/**/__pycache__/**
+mini_google_search/**/.mypy_cache/**
+mini_google_search/**/.pytest_cache/**
+
+# Local environment and VCS
+.venv/**
+.venv2/**
+.git/**
+.vscode/**
+node_modules/**
+dist/**
+build/**
+

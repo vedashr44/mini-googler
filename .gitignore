@@ -1,0 +1,9 @@
+.venv/
+.venv2/
+venv/
+env/
+pycache/
+.pytest_cache/
+.mypy_cache/
+mini_google_search/data/
+mini_google_search/backend/index/
