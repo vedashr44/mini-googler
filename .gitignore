@@ -5,10 +5,13 @@ env/
 pycache/
 .pytest_cache/
 .mypy_cache/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+*.zip
+.idea/
+.vscode/
 mini_google_search/data/
 mini_google_search/backend/index/
-<<<<<<< HEAD
-*.pyc
-=======
-*.pyc
->>>>>>> 748bfef (Clean: ignore caches/venv; remove __pycache__ from repo)
