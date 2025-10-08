@@ -7,3 +7,4 @@ pycache/
 .mypy_cache/
 mini_google_search/data/
 mini_google_search/backend/index/
+*.pyc
